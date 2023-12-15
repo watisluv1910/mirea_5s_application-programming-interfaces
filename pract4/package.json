@@ -1,0 +1,11 @@
+{
+    "name": "test_api",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "json-server --watch database.json --routes routes.json"
+    },
+    "author": "Vladislav Nasevich",
+    "license": "GNU General Public License"
+}
