@@ -1,1 +1,8 @@
-{}
+{
+  "/authors": "/authors",
+  "/authors/:id": "/authors/:id",
+  "/books": "/books",
+  "/books/:id": "/books/:id",
+  "/libs": "/libs",
+  "/libs/:id": "/libs/:id"
+}

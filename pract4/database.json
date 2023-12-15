@@ -1,101 +1,61 @@
 {
-    "authors": [
+  "authors": [
+    {
+      "first_name": "Newname",
+      "last_name": "Newsurname",
+      "email": "new@gmail.com",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "first_name": "Пётр",
+      "last_name": "Петров",
+      "email": "petr@email.ru"
+    },
+    {
+      "id": 3,
+      "first_name": "Виктор",
+      "last_name": "Петров",
+      "email": "viktor@email.ru"
+    },
+    {
+      "id": 4,
+      "first_name": "Андрей",
+      "last_name": "Александров",
+      "email": "aleksendrov@email.ru"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Lord of The Rings",
+      "author_id": 1
+    },
+    {
+      "id": 2,
+      "title": "Call of Ctulhu",
+      "author_id": 1
+    },
+    {
+      "id": 3,
+      "title": "Drakula",
+      "author_id": 2
+    }
+  ],
+  "libs": [
+    {
+      "id": 1,
+      "name": "Lenin's Library",
+      "books_list": [
         {
-            "id": 1,
-            "first_name": "Иван",
-            "last_name": "Иванов",
-            "email": "ivan@email.ru"
+          "book_id": 1,
+          "count": 3
         },
         {
-            "id": 2,
-            "first_name": "Пётр",
-            "last_name": "Петров",
-            "email": "petr@email.ru"
-        },
-        {
-            "id": 3,
-            "first_name": "Виктор",
-            "last_name": "Петров",
-            "email": "viktor@email.ru"
-        },
-        {
-            "id": 4,
-            "first_name": "Андрей",
-            "last_name": "Александров",
-            "email": "aleksendrov@email.ru"
+          "book_id": 3,
+          "count": 1
         }
-    ],
-    "books": [
-        {
-            "id": 1,
-            "title": "Lord of The Rings",
-            "author_id": 1
-        },
-        {
-            "id": 2,
-            "title": "Call of Ctulhu",
-            "author_id": 1
-        },
-        {
-            "id": 3,
-            "title": "Drakula",
-            "author_id": 2
-        }
-    ],
-    "libs": [
-        {
-            "id": 1,
-            "name": "Lenin's Library",
-            "authors_list": [
-                {
-                    "id": 1,
-                    "first_name": "Иван",
-                    "last_name": "Иванов",
-                    "email": "ivan@email.ru"
-                },
-                {
-                    "id": 2,
-                    "first_name": "Пётр",
-                    "last_name": "Петров",
-                    "email": "petr@email.ru"
-                }
-            ],
-            "books_list": [
-                {
-                    "id": 1,
-                    "title": "Lord of The Rings",
-                    "author_id": 1
-                },
-                {
-                    "id": 2,
-                    "title": "Call of Ctulhu",
-                    "author_id": 1
-                },
-                {
-                    "id": 3,
-                    "title": "Drakula",
-                    "author_id": 2
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "name": "Puskin's Library",
-            "authors_list": [
-                {
-                    "id": 2,
-                    "first_name": "Пётр",
-                    "last_name": "Петров",
-                    "email": "petr@email.ru"
-                }
-            ],
-            "books_list": [
-                {
-                    "id": 3,
-                    "title": "Drakula",
-                    "author_id": 2
-                }
-            ]
-        }
-    ]
+      ]
+    }
+  ]
 }

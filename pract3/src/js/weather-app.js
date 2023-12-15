@@ -1,6 +1,6 @@
 const WEATHER_API_KEY = '2954094ae71e46ef0b0bfc1905b15d7f';
 
-var settings = {
+const settings = {
     "url": `https://api.openweathermap.org/data/2.5/weather?q=Moscow&units=metric&appid=${WEATHER_API_KEY}`,
     "method": "GET",
     "timeout": 0,
@@ -8,7 +8,7 @@ var settings = {
 
 $.ajax(settings).done(function (response) {
     console.log("Full response: ", response);
-    var [main, wind] = [response.main, response.wind];
+    const [main, wind] = [response.main, response.wind];
     $("#root").append(`
         <div>
             <p>Average temprature: ${main.temp}</p>
